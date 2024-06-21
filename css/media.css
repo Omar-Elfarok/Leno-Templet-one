@@ -1,0 +1,66 @@
+@media (min-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+/* services */
+@media (max-width:767px){
+    .services .container .services-content .serves{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width:1199px){
+    .services .container .services-content .column .image{
+        display: none;
+    }
+}
+/* services */
+/* Portfolio */
+@media (max-width:767px){
+    .Portfolio .container .Portfolio-content .card .info{
+        text-align: center;
+    } 
+}
+/* Portfolio */
+/* About */
+@media (max-width:991px){
+    .About .container .About-content {
+        flex-direction: column;
+    }
+}
+@media (max-width:991px){
+    .About .container .About-content .image::after,
+    .About .container .About-content .image::before{
+        display: none;
+    }
+}
+@media (max-width:991px){
+    .About .container .About-content .text{
+        text-align: center;
+    } 
+}
+@media (max-width:991px){
+    .About .container .About-content .image{
+        margin:  0 auto 50px;
+    }
+}
+/* About */
+/* Contact */
+@media (max-width:767px){
+    .Contact .container .info .link,
+    .Contact .container .info .label{
+        font-size: 20px;
+    }
+}
+/* Contact */
